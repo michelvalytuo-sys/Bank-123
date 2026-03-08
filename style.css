@@ -1,0 +1,143 @@
+body{
+font-family:Arial;
+margin:0;
+background:#eef2f5;
+}
+
+/* LOGIN */
+
+.login{
+width:320px;
+margin:150px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.login input{
+display:block;
+width:100%;
+margin:10px 0;
+padding:10px;
+}
+
+.login button{
+padding:10px;
+width:100%;
+background:#2ecc71;
+color:white;
+border:none;
+}
+
+#error{
+color:red;
+}
+
+/* LAYOUT */
+
+.container{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:220px;
+background:#1f2a30;
+color:white;
+padding:20px;
+}
+
+.sidebar li{
+padding:10px 0;
+cursor:pointer;
+}
+
+.sidebar li:hover{
+color:#2ecc71;
+}
+
+.main{
+flex:1;
+padding:25px;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+/* MESSAGE BLOQUE */
+
+.blocked{
+background:red;
+color:white;
+font-weight:bold;
+padding:15px;
+text-align:center;
+border-radius:6px;
+margin-bottom:20px;
+}
+
+/* CARTE BANCAIRE */
+
+.card-bank{
+width:320px;
+height:180px;
+background:linear-gradient(135deg,#1b5e20,#66bb6a);
+border-radius:15px;
+color:white;
+padding:20px;
+margin-bottom:20px;
+}
+
+.card-number{
+font-size:22px;
+margin-top:40px;
+}
+
+.card-name{
+margin-top:20px;
+}
+
+.card-date{
+margin-top:5px;
+}
+
+/* COMPTE */
+
+.account-card{
+background:white;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* TRANSACTIONS */
+
+.transaction{
+display:flex;
+justify-content:space-between;
+background:white;
+padding:10px;
+margin-bottom:5px;
+border-radius:6px;
+}
+
+.plus{
+color:green;
+}
+
+.minus{
+color:red;
+}
+
+canvas{
+background:white;
+padding:20px;
+border-radius:10px;
+
+}
